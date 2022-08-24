@@ -2,66 +2,48 @@
 /* CSS
 /*******************************************/
 body{
+  
   padding: 0;
   margin: 0;
-  background: black;
+  width: 100%;
+  max-width: 100%;
+  background: url("C:/Users/airsay/desktop/Food-Recipe-App/assets/images/veggies.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
   color: white;
 }
 /* Box Model Hack */
 *{
   box-sizing: border-box;
 }
+main{
+  width: auto;
+}
+.firstContainer{
+  background-image: url("C:/Users/airsay/desktop/Food-Recipe-App/assets/images/background food photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  position: relative;
+  margin-top: 10%;
+  width: 40%;
+  height: 500px;
+  border: 2px solid yellow;
+}
+.inputContainer{
+  text-align: center;
+  border: 2px solid red;
+}
+.contentContainer{
+  text-align: center;
+  border: 2px solid black;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-/******************************************
-/* SLIDER
-/*******************************************/
-
-.slider-frame{
-  overflow: hidden;
-  height: 800px;
-  width: 1200px;
-  margin-left: 360px;
-  margin-top: 20px;
-}
-
-/* slider animation */
-
-@-webkit-keyframes slide_animation{
-  0% {left:0px;}
-  10% {left:0px;}
-  20% {left:1200px;}
-  30% {left:1200px;}
-  40% {left:2400px;}
-  50% {left:2400px;}
-  60% {left:1200px;}
-  70% {left:1200px;}
-  80% {left:0px;}
-  90% {left:0px;}
-  100% {left:0px;}
-}
-.slide-images{
-  
-  width: 360px;
-  height: 300px;
-  margin: 0 0 0 -2400px;
-  position: relative;
-  -webkit-animation-name: slide_animation ;
-  -webkit-animation-duration: 33s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-play-state: running;
-
-}
-.img-container{
-  height: 500px;
-  width: 100%;
-  position: relative;
-  float: left;
-}
 
 
 /******************************************
