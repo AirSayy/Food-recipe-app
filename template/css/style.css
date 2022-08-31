@@ -7,7 +7,7 @@ body{
   margin: 0;
   width: 100%;
   max-width: 100%;
-  background: url("C:/Users/airsay/desktop/Food-Recipe-App/assets/images/veggies.jpg");
+  background: url("C:/Users/airsay/desktop/Food-Recipe-App/assets/images/background food photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
@@ -21,24 +21,16 @@ main{
   width: auto;
 }
 .firstContainer{
-  background-image: url("C:/Users/airsay/desktop/Food-Recipe-App/assets/images/background food photo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: auto;
+  
   position: relative;
-  margin-top: 10%;
-  width: 40%;
-  height: 500px;
-  border: 2px solid yellow;
-}
-.inputContainer{
-  text-align: center;
-  border: 2px solid red;
+  margin-top: 3%;
+  
 }
 .contentContainer{
-  text-align: center;
-  border: 2px solid black;
+  margin-left: 5%;
+  color: black;
 }
+
 
 /******************************************
 /* LAYOUT
