@@ -8,9 +8,10 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data.meals)
-        // document.querySelector('#nameOfFood').innerHTML = data.results[0].title
-        // document.querySelector('img').src = data.results[0].image
+        console.log(data.meals[0])
+        document.querySelector('#nameOfFood').innerHTML = data.meals[0].strMeal
+        document.querySelector('img').src = data.meals[0].strMealThumb
+        document.querySelector('iframe').src = data.meals[0].strYoutube
       })
       .catch(err => {
           console.log(`error ${err}`)
