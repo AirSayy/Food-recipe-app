@@ -8,11 +8,15 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data.results[0].image)
-        console.log(data.results[0].imageType)
+        console.log(data.results[0])
         
-        // document.querySelector('#nameOfFood').innerHTML = data.meals[0].strMeal
-        // document.querySelector('img').src = data.meals[0].strMealThumb
+        
+         document.querySelector('#nameOfFood').innerHTML = data.results[0].title
+         document.querySelector('img').src = data.results[0].image
+         document.querySelector('img').style = '250px'
+         document.querySelector('h4').innerText = data.results[0].summary
+         document.querySelector('#diet').innerHTML = data.results[0].diets
+         document.querySelector('#instruction').innerHTML = data.results[0]
         
       })
       .catch(err => {
