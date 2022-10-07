@@ -1,0 +1,5 @@
+Add a form to fill in the informations needed to get your appropriate search answer
+loop through the list of data results to get the specific search option.
+align the ingredients and instructions orderly using the foreach method in javascript
+When i click on the button Search, it should open a new page giving the infomration of what was searched for.
+Make it Responsive with a good colour balance for the Eyes.(CSS).
