@@ -16,7 +16,6 @@ function getFetch(){
          document.querySelector('img').style = '250px'
          document.querySelector('h4').innerText = data.results[0].summary
          document.querySelector('#diet').innerHTML = data.results[0].diets
-         document.querySelector('#instruction').innerHTML = data.results[0]
         
       })
       .catch(err => {
