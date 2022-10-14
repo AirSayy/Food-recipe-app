@@ -14,7 +14,7 @@ function getFetch(){
          document.querySelector('#nameOfFood').innerHTML = data.results[0].title
          document.querySelector('img').src = data.results[0].image
          document.querySelector('img').style = '250px'
-         document.querySelector('h4').innerText = data.results[0].summary
+         document.querySelector('h4').innerHTML= data.results[0].summary
          document.querySelector('#diet').innerHTML = data.results[0].diets
         
       })
