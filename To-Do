@@ -4,3 +4,8 @@ align the ingredients and instructions orderly
 When i click on the button 'Search', it should reveal the results of the number of recipe chosen.
 The results include, a title of the foood, picture,author,link,summary, instructions, calories and ingredients.
 Make it Responsive with a good colour balance for the Eyes.(CSS).
+
+
+
+
+!important : Get the objects out from the array!!

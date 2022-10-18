@@ -18,7 +18,10 @@
 
 				<div class="inputContainer">
 					<h1>Type in Name of food below</h1>
-					<input type="text" placeholder="Meal Name" class="text">
+					<label for="form">Meal name</label>
+					<input type="text" placeholder="Meal Name" class="mealName" id="mealName">
+					<input type="text" placeholder="name of diet" class="dietName" id="dietName">
+					
 					<button id="btn" class="btn">Search</button>
 				</div>
 				<div class="contentContainer">
@@ -44,9 +47,11 @@
 				
 					<!--Instructions-->
 					<h3 id="instructions">--Instructions--</h3>
-					<ol>
+					<ol id="recipe">
 						
 					</ol>
+					<!-- Summary of Meal-->
+					<h4></h4>
 				</div>
 			</div>
 		</main>
