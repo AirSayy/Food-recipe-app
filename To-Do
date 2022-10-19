@@ -1,11 +1,13 @@
-Add two inputs to fill in the informations needed to get your appropriate search answer
+Add two 1 input to fill in the informations needed to get your appropriate search answer
 loop through the list of data results to get the specific search option.
 align the ingredients and instructions orderly
 When i click on the button 'Search', it should reveal the results of the number of recipe chosen.
 The results include, a title of the foood, picture,author,link,summary, instructions, calories and ingredients.
 Make it Responsive with a good colour balance for the Eyes.(CSS).
+Save to localstorage so the user can come back to visit same recipe
 
 
 
 
-!important : Get the objects out from the array!!
+
+

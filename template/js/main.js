@@ -14,10 +14,10 @@ function getFetch(){
     fetch(url)
     .then(res => res.json()) // parse response as JSON
     .then(data => {
-        console.log(data.results) // Returns Results of the data requested for
+        // console.log(data.results) // Returns Results of the data requested for
         
         const title = data.results.map(el =>el.title) //Loops through the result and returns an array of the title name.
-        console.log(title) // logs in the array in the console
+        // console.log(title) // logs in the array in the console
         document.querySelector('#title').innerHTML = title[0] //Title of the meal choses shows in the dom
         
           
@@ -31,7 +31,7 @@ function getFetch(){
           
         const ingredients = data.results[0].extendedIngredients.map(el => `<li>${el.name}</li>`).join('') // loops through the results, loops again through the ingredients from the object and append it to the dom with the li's
         document.querySelector('#ingredients').innerHTML =ingredients   
-        console.log(ingredients) 
+        // console.log(ingredients) 
             
         const diet = data.results.map(el => `<li>${el.diets}</li>`) // loops through the diets from the object and append it to the dom with the li's
         document.querySelector('#diet').innerHTML = diet[0]
@@ -43,3 +43,5 @@ function getFetch(){
         console.log(`can't be found ${err}`)
     });
 }
+
+// !!  IMPORTANT!! SAVE RECIPE TO LOCAL STORAGE
