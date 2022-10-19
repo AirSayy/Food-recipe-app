@@ -7,7 +7,7 @@ body{
   margin: 0;
   width: 100%;
   max-width: 100%;
-  background: url("C:/Users/airsay/desktop/Food-Recipe-App/assets/images/background food photo.jpg");
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
@@ -28,7 +28,7 @@ main{
 }
 .contentContainer{
   margin-left: 5%;
-  color: black;
+  color: whitesmoke;
 }
 
 
