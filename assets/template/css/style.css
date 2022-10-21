@@ -7,7 +7,7 @@ body{
   margin: 0;
   width: 100%;
   max-width: 100%;
-  background: black;
+  background: url("../../images/burger.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
