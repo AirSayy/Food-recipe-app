@@ -4,7 +4,8 @@ align the ingredients and instructions orderly
 When i click on the button 'Search', it should reveal the results of the number of recipe chosen.
 The results include, a title of the foood, picture,author,link,summary, instructions, calories and ingredients.
 Make it Responsive with a good colour balance for the Eyes.(CSS).
-Save to localstorage so the user can come back to visit same recipe
+Save to localstorage so the user can come back to visit same recipe.
+Make a simple design for the web application to complement your project.
 
 
 
