@@ -4,9 +4,9 @@ document.querySelector('button').addEventListener('click', getFetch)
 document.querySelector('#title').innerHTML = localStorage.getItem('RecipeTitle')
 document.querySelector('img').src = localStorage.getItem('RecipeImage')
 document.querySelector('h4').innerHTML= localStorage.getItem('RecipeSummary')
-  document.querySelector('#recipe').innerHTML = localStorage.getItem('RecipeInstructions')
-  document.querySelector('#ingredients').innerHTML =  localStorage.getItem('RecipeIngredients')
-  document.querySelector('#diet').innerHTML = localStorage.getItem('Recipediet')
+document.querySelector('#recipe').innerHTML = localStorage.getItem('RecipeInstructions')
+document.querySelector('#ingredients').innerHTML =  localStorage.getItem('RecipeIngredients')
+document.querySelector('#diet').innerHTML = localStorage.getItem('Recipediet')
   
 
 // The Event listener grabs the the function
