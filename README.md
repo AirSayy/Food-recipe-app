@@ -1,5 +1,5 @@
 
-# MEAL INFORMATION APP
+# MEAL RECIPE APP
 This application searches for meals and gets the results about the meal information, summary of the meal , diets , calories and so much more.
 
 <!-- **Link to project:** http://recruiters-love-seeing-live-demos.com/ -->
